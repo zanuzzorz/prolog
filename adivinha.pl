@@ -1,7 +1,7 @@
 %% Ricardo Zanuzzo
 
 iniciar :- nl, 
-           write('=> Programa de adivinhaÃ§Ã£o... '), nl,
+           write('=> Programa de adivinhação... '), nl,
            write('=> Responda as perguntas do programa com (sim ou nao)... '), nl,
            write('=> Pense em um animal...'), nl, nl,
            encontrar(Animal), nl, nl,
