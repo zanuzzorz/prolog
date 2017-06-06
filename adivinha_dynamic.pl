@@ -43,7 +43,7 @@ continuar :- write('Quer continuar jogando? (sim/nao)'), nl,
 finalizar :- nl, nl, write('Programa finalizado...'), nl, !.
 
 
-/*funÃ§Ãµes dinÃ¢micas para ser adicionado as respostas*/
+/*funções dinâmicas para ser adicionado as respostas*/
 :- dynamic resp_sim/1, resp_nao/1.
 
 limpar_base :- retract(resp_sim(_)),fail.
