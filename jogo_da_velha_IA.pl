@@ -1,6 +1,6 @@
 %% Ricardo Zanuzzo
 %% Para iniciar, execute o predicado jv.
-%% $- jv.
+%% ?- jv.
 
 jv :- nl,
       write('Jogo da Velha!'), nl,
