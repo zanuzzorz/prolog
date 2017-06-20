@@ -62,7 +62,7 @@ lista_cidades(I, L) :- findall(X, distancia(I,X,_), L1), findall(X, distancia(X,
    append(L1,L2,L3), list_to_set(L3, L), !.
 
 
-%% Predicado usado para verificar se a cidade X estÃ¡ na lista de cidades visitadas 
+%% Predicado usado para verificar se a cidade X está na lista de cidades visitadas 
 cidade_pertence(X,[X|_]).
 cidade_pertence(X,[_|L]):- cidade_pertence(X,L).
 
